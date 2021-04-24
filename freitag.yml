@@ -1,0 +1,9 @@
+---
+
+- name: gentoo server
+  hosts: freitag
+  roles:
+    - cloudalchemy.grafana
+    - cloudalchemy.prometheus
+
+...

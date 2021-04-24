@@ -1,0 +1,6 @@
+roles/cloudalchemy.alertmanager
+roles/cloudalchemy.grafana
+roles/cloudalchemy.node_exporter
+roles/cloudalchemy.prometheus
+roles/geerlingguy.docker
+
