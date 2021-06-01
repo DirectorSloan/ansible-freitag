@@ -1,0 +1,5 @@
+---
+prometheus_selinux_packages:
+  - sys-apps/policycoreutils
+  - sys-apps/selinux-python
+prometheus_user_login_shell: "/bin/false"
