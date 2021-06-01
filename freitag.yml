@@ -4,6 +4,8 @@
   hosts: freitag
   roles:
     - cloudalchemy.grafana
+    - cloudalchemy.node_exporter
     - cloudalchemy.prometheus
+    - { role: cloudalchemy.snmp-exporter, tags: ['snmp', 'snmp-exporter', 'exporter'] }
 
 ...
