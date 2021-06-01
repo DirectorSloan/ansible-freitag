@@ -1,0 +1,13 @@
+---
+
+grafana_security:
+  admin_user: admin
+  admin_password: 'HierKoennteIhrAdminPasswortStehen'
+
+prometheus_targets:
+  node:
+  - targets:
+    - localhost:9100
+    labels:
+      env: ichhabkeineahnung
+...
